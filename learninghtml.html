@@ -1,28 +1,67 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Learning Website</title>
     <link rel="stylesheet" href="learningcss.css">
+    <script src="learningscript.js"></script>
 </head>
+
 <body>
-    <h1>Learning Website</h1>
-    <p> Hi everyone, I'm Hector, a 19 year old college student. I'm studying the computer engineering major at ULE, Spain.
-        I'm building this website because I want to learn how to do it, I'm sure I'm going to enjoy this a lot. And actually,
-        this will actually help me to keep practising my english, because since i moved back from Ireland, I obviously haven't used it much.
-    </p>
-    <img src="C:\Users\hecto\Downloads\EscuelaIngenieriasLeon2.JPG" alt="Escuela de Ingenierías ULE" width="600">
-    <p> Obviously this is gonna take sometime, becasue I want to make sure I have as much as knowledge as I can, but this
-        I really hope my career gets better and better. Can't wait!!! I have passed 2 out of the 5 subjects this semester,
-        it's not as good as I planned it to be, but it's how college works I guess, not all the work is recompensated.Ç
-    </p>
-    <H2>
-        Introduction
-    </H2>
-    <p>
-        To be honest I don't know what to say here, I don't really know.
-    </p>
+    <!-- Menú con pestañas funcionales -->
+    <nav class="menu-pestañas">
+        <ul>
+            <li><a href="#home" class="activa">Home</a></li>
+            <li><a href="#studies">My studies</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#useful">Useful Websites</a></li>
+        </ul>
+    </nav>
 
+    <!-- Contenido pestañas -->
+    <main>
+        <section id="home" class="pestana activa">
+            <h1>Learning Website</h1>
+            <p>Hi everyone, I'm Hector, a 19-year-old college student. I'm studying Computer Engineering at ULE, Spain.
+            </p>
+            <p>I'm building this website to learn how to do it. I'm sure I'm going to enjoy this a lot. And actually,
+                this will help me keep practicing my English, because since I moved back from Ireland, I obviously
+                haven't used it much.</p>
+            <p>Obviously this is gonna take some time, because I want to make sure I have as much knowledge as I can. I
+                really hope my career gets better and better. Can't wait!!! I have passed 2 out of the 5 subjects this
+                semester. It's not as good as I planned, but it's how college works I guess – not all the work is
+                recompensated.</p>
+            <img src="C:\Users\hecto\Pictures\EscuelaIngenieriasLeon2.JPG" alt="Escuela de Ingenierías ULE" width="600">
+        </section>
 
+        <section id = "studies" class="pestana">
+            <h1>My studies</h1>
+            <p>Here I'm gonna upload news of how my studies are going, so don't expect me to upload personal stuff.</p>
+        </section>
+
+        <section id="about" class="pestana">
+            <h2>Introduction</h2>
+            <p>To be honest, I don't know what to say here. I'm not really wanting to study electronics – it's really
+                boring. It's a shame they decided to grade the last test all or nothing.</p>
+            <!-- Agrega más sobre ti: hobbies, Java, fútbol -->
+        </section>
+
+        <section id="contact" class="pestana">
+            <h2>Contact Us</h2>
+            <p>Email: tu-email@ule.es | GitHub: tu-usuario</p>
+        </section>
+
+        <section id="useful" class="pestana">
+            <h2>Useful Websites</h2>
+            <ul>
+                <li><a href="https://github.com" target="_blank">GitHub</a></li>
+                <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+                <li><a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a></li>
+            </ul>
+        </section>
+    </main>
 </body>
+
 </html>
