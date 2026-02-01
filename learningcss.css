@@ -6,8 +6,29 @@
     box-sizing: border-box;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    /* Alinea verticalmente el logo y el texto */
+    gap: 10px;
+    /* Espacio entre el logo y el texto */
+    background-color: #2d2a2a;
+    /* El color oscuro que tienes en la captura */
+    padding: 10px;
+    color: white;
+}
+
+.nav-logo {
+    width: 30px;
+    /* Ajusta el tamaño a tu gusto */
+    height: 30px;
+    border-radius: 50%;
+    /* Esto lo hace circular como en tu imagen */
+    object-fit: cover;
+}
+
 body {
-    background-color: bisque;
+    background-color: rgb(196, 255, 242);
     font-family: -apple-system, sans-serif;
     text-align: left;
     line-height: 1.6;
@@ -44,7 +65,7 @@ body {
 
 .menu-pestañas a:hover,
 .menu-pestañas a.activa {
-    background: #007bff;
+    background: #ffae00;
     color: white;
 }
 
